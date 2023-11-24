@@ -11,6 +11,7 @@ public class TC002Test {
 		driver.manage().window().maximize();
 		driver.get("https://www.shoppersstack.com/");
 		driver.quit();
+		System.out.println("Executed TC002");
 	}
 
 }

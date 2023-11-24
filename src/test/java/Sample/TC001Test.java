@@ -11,6 +11,7 @@ public class TC001Test {
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
 		driver.quit();
+		System.out.println("Executed TC001");
 	}
 
 }
